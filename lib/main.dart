@@ -16,9 +16,7 @@ void main() {
         backgroundColor: Colors.red[100],
         body: const Center(
           child: Image(
-            image: NetworkImage(
-                'https://appdeskservices.com/wp-content/uploads/2023/03/64px_64px_long_logo.png'
-            ),
+            image: AssetImage('images/diamond.png')
           ),
         ),
       ),
